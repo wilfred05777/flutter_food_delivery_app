@@ -73,4 +73,4 @@ flutter:
         - asset: assets/fonts/Signatra.ttf
     - family: Varela
       fonts:
-        - asset: assets/fonts/ValerRound-Regular.ttf
+        - asset: assets/fonts/VarelaRound-Regular.ttf
