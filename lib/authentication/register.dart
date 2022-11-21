@@ -15,13 +15,27 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: CustomTextField(
-        controller: AnyController,
-        data: Icons.phone,
-        hintText: "Phone",
-        isObsecre: false,
+    return SingleChildScrollView(
+        child: Container(
+      child: Column(
+        mainAxisSize: MainAxisSize.max,
+        children: const [
+          InkWell(
+            child: CircleAvatar(
+                // radius: MediaQuery.of(context).size.width * 0.20,
+                ),
+          )
+        ],
       ),
-    );
+    ));
+
+    // return Center(
+    //   child: CustomTextField(
+    //     controller: AnyController,
+    //     data: Icons.phone,
+    //     hintText: "Phone",
+    //     isObsecre: false,
+    //   ),
+    // );
   }
 }

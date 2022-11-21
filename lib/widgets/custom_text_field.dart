@@ -30,6 +30,7 @@ class CustomTextField extends StatelessWidget {
         cursorColor: Theme.of(context).primaryColor,
         decoration: const InputDecoration(
           border: InputBorder.none,
+
           // // Bug on this commented section
           // prefixIcon: Icon(
           //   data,
@@ -37,6 +38,14 @@ class CustomTextField extends StatelessWidget {
           // ),
           // focusColor: Theme,
           // hintText: hintText,
+
+          // prefixIcon: Align(
+          //   widthFactor: 1.0,
+          //   heightFactor: 1.0,
+          //   child: Icon(
+          //     Icons.person,
+          //   ),
+          // )
         ),
       ),
     );
